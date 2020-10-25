@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+</head>
+
+<body>
+    <ul>
+        {% for headline in headlines_list &}
+            <li>{headline}</li>
+        {% endfor $}
+    </ul>
+    <ul>
+        {% for paragraph in paragraphs_list &}
+            <li>{paragraph}</li>
+        {% endfor $}
+    </ul>
+    <ul>
+        <li>{picture}</li>
+    </ul>
+    <ul>
+        {% for mars_data in mars_data_dict &}
+            <li>{mars_data}</li>
+        {% endfor $}
+    </ul>
+    <ul>
+        {% for hemisphere in hemispheres_dict &}
+            <li>{hemisphere}</li>
+        {% endfor $}
+    </ul>
+</body>
+
+</html>
